@@ -21,20 +21,6 @@ img_size=100
 data=[]
 target=[]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 for category in categories:
     folder_path = os.path.join(datasetPath,category)
     img_names = os.listdir(folder_path)
