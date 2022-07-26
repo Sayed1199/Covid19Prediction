@@ -24,15 +24,6 @@ convs=[]
 parallel_kernels =[3,5,7]
 
 
-
-
-
-
-
-
-
-
-
 for k in range(len(parallel_kernels)):
     
     conv = Conv2D(128, parallel_kernels[k], padding='same',activation='relu',input_shape=input_shape,strides=(1,1))(inp)
